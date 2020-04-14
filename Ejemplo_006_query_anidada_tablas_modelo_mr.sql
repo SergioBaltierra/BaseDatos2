@@ -1,4 +1,4 @@
--- Misma subquery pero restriccion de mostrar solo alumnos cursando un solo curso.
+-- Misma subquery pero restriccion de mostrar solo alumnos cursando un solo curso, usando query anidada.
 SELECT 
 	A.NOMBRES,
     A.APELLIDOS,
