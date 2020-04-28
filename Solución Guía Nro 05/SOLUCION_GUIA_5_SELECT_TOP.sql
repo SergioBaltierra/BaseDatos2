@@ -1,0 +1,4 @@
+SELECT
+    * 
+FROM `ARTISTAS` 
+LIMIT 2;
