@@ -1,0 +1,27 @@
+DECLARE
+  NUM_A NUMBER := 5;
+BEGIN
+  CASE NUM_A
+    WHEN 0 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 1 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 2 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 3 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 4 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 5 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 6 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 7 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    WHEN 8 THEN
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+    ELSE
+      DBMS_OUTPUT.PUT_LINE('Es un: ' || TO_CHAR(NUM_A));
+  END CASE;
+END;
+/
