@@ -1,0 +1,22 @@
+DECLARE
+  PALABRA VARCHAR(100) := 'SALUDO';
+  VOCAL VARCHAR(1);
+  LARGO INTEGER := 0;
+  CONTADOR INTEGER := 0;
+  VOCALES INTEGER := 0;
+BEGIN
+  LARGO := LENGTH(PALABRA);
+  
+  WHILE (CONTADOR <= LARGO) LOOP
+  
+    VOCAL := SUBSTR(PALABRA,CONTADOR,1);
+  
+    IF(VOCAL IN ('a','e','i','o','u','A','E','I','O','U') ) THEN
+      VOCALES := VOCALES + 1;
+    END IF;
+    
+    CONTADOR := CONTADOR + 1;
+  END LOOP;
+  DBMS_OUTPUT.PUT_LINE('Cantidd de vocales de palabra es: ' || TO_CHAR(VOCALES));
+END;
+/
