@@ -1,0 +1,5 @@
+BEGIN
+    INSERT_FECHA_PAGO(1);
+    COMMIT;
+END;
+/
